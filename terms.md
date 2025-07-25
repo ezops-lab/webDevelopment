@@ -48,5 +48,5 @@ description: " Terms of Service for EZ Operation Inc. "
             in the courts of <strong>Saskatoon</strong>.</p>
         <h2>10. Contact Us</h2>
         <p>If you have any questions about these Terms, please contact us at <strong>ezoperationinc@gmail.com</strong>.</p>
-    </div>
-    <a href="index.md" class="btn btn-lg btn-primary">Back to Home</a>
+    <a href="{{'/index' | relative_url }}" class="btn btn-info">Back to Home</a>
+</div>

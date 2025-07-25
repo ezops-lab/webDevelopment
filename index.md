@@ -4,7 +4,6 @@ title: "index"
 description: "Learn about EZ Operation's mission, expertise, and commitment to digital transformation."
 ---
 
-<div id="header"></div>
   <!-- Dynamic Content Area -->
   <section class="py-5 text-center bg-light" id="content-area">
     <div class="container">
@@ -97,4 +96,4 @@ description: "Learn about EZ Operation's mission, expertise, and commitment to d
         Align technology initiatives with your business goals through expert IT consulting.
       </div>
     </div>
-  </div>
+
