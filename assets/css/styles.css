@@ -89,3 +89,16 @@ nav ul {
 nav ul li a {
   text-decoration: none;
 }
+
+/*career page styles*/
+body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .hero {
+      background: linear-gradient(120deg, #0d6efd 0%, #0dcaf0 100%);
+      color: white;
+      padding: 80px 0;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+    }
