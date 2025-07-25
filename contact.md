@@ -12,7 +12,6 @@ description: "Contact us to connect with EZ Operation Inc. for consultations or 
     <li><strong>Phone:</strong> +1 (306) 914 7817</li>
   </ul>
   <body>
-    
     <div class="google-form">
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfVt84MfN7VAcCQ14hjn17wnMyEcqd-mtC9xqcOkXIuOiMQyw/viewform?embedded=true"
     width="640" height="1716" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>

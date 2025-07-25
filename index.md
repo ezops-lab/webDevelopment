@@ -19,7 +19,7 @@ description: "Learn about EZ Operation's mission, expertise, and commitment to d
   <!-- Service 1 -->
   <div class="col-md-4">
     <div class="card service-card shadow-sm">
-      <img src="images/footprint.png" class="service-img" alt="Digital Footprint"/>
+      <img src="assets/images/footprint.png" class="service-img" alt="Digital Footprint"/>
       <div class="card-body text-center">
         <i class="fas fa-globe service-icon"></i>
         <div class="service-title">Digital Footprint</div>
@@ -33,7 +33,7 @@ description: "Learn about EZ Operation's mission, expertise, and commitment to d
   <!-- Service 2 -->
   <div class="col-md-4">
     <div class="card service-card shadow-sm">
-      <img src="images/2.jpg" class="service-img" alt="Infrastructure Consulting"/>
+      <img src="assets/images/infra.jpg" class="service-img" alt="Infrastructure Consulting"/>
       <div class="card-body text-center">
         <i class="fas fa-network-wired service-icon"></i>
         <div class="service-title">Infrastructure Consulting</div>
@@ -47,7 +47,7 @@ description: "Learn about EZ Operation's mission, expertise, and commitment to d
   <!-- Service 3 -->
   <div class="col-md-4">
     <div class="card service-card shadow-sm">
-      <img src="images/database.jpg" class="service-img" alt="Database Solutions"/>
+      <img src="assets/images/database.jpg" class="service-img" alt="Database Solutions"/>
       <div class="card-body text-center">
         <i class="fas fa-database service-icon"></i>
         <div class="service-title">Database Solutions</div>
@@ -61,7 +61,7 @@ description: "Learn about EZ Operation's mission, expertise, and commitment to d
   <!-- Service 4 -->
   <div class="col-md-4">
     <div class="card service-card shadow-sm">
-      <img src="images/3.jpg" class="service-img" alt="Cloud Migration"/>
+      <img src="assets/images/cloud.jpg" class="service-img" alt="Cloud Migration"/>
       <div class="card-body text-center">
         <i class="fas fa-cloud-upload-alt service-icon"></i>
         <div class="service-title">Cloud Migration</div>
@@ -75,7 +75,7 @@ description: "Learn about EZ Operation's mission, expertise, and commitment to d
   <!-- Service 5 -->
   <div class="col-md-4">
     <div class="card service-card shadow-sm">
-      <img src="images/1.jpg" class="service-img" alt="SEO Consulting"/>
+      <img src="assets/images/SEO.jpg" class="service-img" alt="SEO Consulting"/>
       <div class="card-body text-center">
         <i class="fas fa-cogs service-icon"></i>
         <div class="service-title">SEO Consulting</div>
@@ -105,42 +105,3 @@ description: "Learn about EZ Operation's mission, expertise, and commitment to d
   </section>
 
   <div id="footer"></div>
-
-  <!-- Scripts -->
-  <script>
-    function loadPartial(id, url) {
-      fetch(url)
-        .then(res => res.text())
-        .then(html => document.getElementById(id).innerHTML = html);
-    }
-
-    function loadPage(url) {
-      if (url === 'home') {
-        document.getElementById("content-area").innerHTML = `
-          <div class='container'>
-            <h1 class='display-5 fw-bold'>Transforming Businesses with Innovative IT Solutions</h1>
-            <p class='lead'>Expert IT consulting for infrastructure, databases, and digital transformation.</p>
-            <p class='mb-4'>Book an appointment at <strong>+1 (306) 914-7817</strong></p>
-            <a href='#' class='btn btn-primary btn-lg' onclick="loadPage('contact.html'); return false;">Get a Free Consultation</a>
-          </div>`;
-        return;
-      }
-      fetch(url)
-        .then(res => {
-          if (!res.ok) throw new Error("Page not found");
-          return res.text();
-        })
-        .then(data => {
-          document.getElementById("content-area").innerHTML = data;
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        })
-        .catch(err => {
-          document.getElementById("content-area").innerHTML = "<div class='container py-5'><h2>Page not found</h2><p>Sorry, we couldn’t load the page.</p></div>";
-        });
-    }
-
-    // Load header and footer
-    loadPartial("header", "header.html");
-    loadPartial("footer", "footer.html");
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

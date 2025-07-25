@@ -16,7 +16,7 @@ description: "Learn about EZ Operation's mission, expertise, and commitment to d
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-6 mb-4">
-          <img src="images/story.jpeg" class="img-fluid rounded shadow" alt="Our Story">
+          <img src="assets/images/story.jpeg" class="img-fluid rounded shadow" alt="Our Story">
         </div>
         <div class="col-md-6">
           <h2>Our Story</h2>
