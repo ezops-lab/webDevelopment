@@ -4,20 +4,9 @@ title: "privacy"
 description: "Privacy Policy for EZ Operation Inc."
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<div class="container py-5 text-start">
-
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Privacy Policy - EZ Operation Inc.</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-
   <body>
     <div class="privacycontainer">
-      <a href="index.html" class="btn btn-info">Back to Home</a>
+      <a href="index.md" class="btn btn-info">Back to Home</a>
       <h1><b>Privacy Policy</b></h1>
       <p>Last updated: January 17, 2025</p>
       <p>
@@ -467,9 +456,5 @@ description: "Privacy Policy for EZ Operation Inc."
         By visiting this page on our website:
         https://ezopinc.ca/contact
       </p>
-      <a href="index.html" class="btn btn-lg btn-primary">Back to Home</a>
+      <a href="index.md" class="btn btn-lg btn-primary">Back to Home</a>
     </div>
-  </body>
-</html>
-
-</div>

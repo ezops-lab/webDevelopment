@@ -4,23 +4,6 @@ title: "index"
 description: "Learn about EZ Operation's mission, expertise, and commitment to digital transformation."
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EZ Operation Inc.</title>
-  <meta name="description" content="Simplifying IT Solutions - Expert IT consulting for infrastructure, databases, and digital transformation." />
-  <meta name="keywords" content="IT consulting, web development, database solutions, digital transformation, EZ Operation">
-  <meta name="author" content="EZ Operation Inc.">
-  <link rel="canonical" href="https://www.ezopinc.ca" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-  
-</head>
-<body>
-
 <div id="header"></div>
   <!-- Dynamic Content Area -->
   <section class="py-5 text-center bg-light" id="content-area">
@@ -32,8 +15,7 @@ description: "Learn about EZ Operation's mission, expertise, and commitment to d
 
       
   <div class="row g-4 mt-5 justify-content-center text-center " id="services">
-  
-    <h2> Services </h2>
+  <h2> Services </h2>
   <!-- Service 1 -->
   <div class="col-md-4">
     <div class="card service-card shadow-sm">
@@ -162,5 +144,3 @@ description: "Learn about EZ Operation's mission, expertise, and commitment to d
     loadPartial("footer", "footer.html");
   </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
