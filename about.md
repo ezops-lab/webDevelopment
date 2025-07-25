@@ -1,47 +1,9 @@
 ---
 layout: default
 title: "About Us"
-description: "Learn about EZ Operation Inc."
+description: "Learn about EZ Operation's mission, expertise, and commitment to digital transformation."
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<div class="container text-start py-5 ">
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About Us - EZ Operation</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-  <style>
-    .hero {
-      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-      color: white;
-      padding: 80px 0;
-    }
-    .value-icon {
-      font-size: 2rem;
-      color: #0d6efd;
-    }
-    .team-img {
-      width: 100%;
-      height: 250px;
-      object-fit: cover;
-      border-radius: 8px;
-    }
-  </style>
-</head>
-<body>
-
-  <!-- Include your header here -->
-  <div id="header-placeholder"></div>
-
-  <!-- Hero Section -->
   <section class="hero text-center">
     <div class="container">
       <h1 class="display-4 animate__animated animate__fadeInDown">About EZ Operation</h1>
@@ -95,8 +57,6 @@ description: "Learn about EZ Operation Inc."
           <p>We work closely with our clients and partners to achieve shared success.</p>
         </div>
       </div>
-
-      <!-- NEW VALUES -->
       <div class="col-md-4">
         <div class="p-4 border rounded h-100">
           <i class="fas fa-bolt value-icon mb-3"></i>
@@ -155,22 +115,14 @@ description: "Learn about EZ Operation Inc."
   </div>
 </section>
 
-  <!-- Include footer -->
-  <div id="footer-placeholder"></div>
-
-  <!-- Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
     // Load header and footer dynamically (if using separate files)
     fetch("header.html").then(res => res.text()).then(data => document.getElementById("header-placeholder").innerHTML = data);
     fetch("footer.html").then(res => res.text()).then(data => document.getElementById("footer-placeholder").innerHTML = data);
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+</script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 <script>
   AOS.init();
 </script>
-</body>
-
-
-</div>
-</html>

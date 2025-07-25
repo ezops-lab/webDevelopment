@@ -3,13 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ page.title }} | EZ Operation Inc.</title>
-  <meta name="description" content="{{ page.description }}">
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta name="keywords" content="IT consulting, web development, database solutions, EZ Operation">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+  <meta property="og:title" content="{{ page.title }} | {{ site.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
 </head>
 <body>
   {% include header.html %}
-  <main class="container py-4">{{ content }}</main>
+  <main class="container py-4">
+    {{ content }}
+  </main>
   {% include footer.html %}
 </body>
 </html>
