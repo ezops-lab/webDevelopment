@@ -11,9 +11,8 @@ description: "Learn about EZ Operation's mission, expertise, and commitment to d
       <h1 class="display-5 fw-bold">Transforming Businesses with Innovative IT Solutions</h1>
       <p class="lead">Expert IT consulting for infrastructure, databases, and digital transformation.</p>
       <p class="mb-4">Book an appointment at <strong>+1 (306) 914-7817</strong></p>
-      <a href="#" class="btn btn-primary btn-lg" onclick="loadPage('contact.html'); return false;">Get a Free Consultation</a>
+      <a href="{{'/contact' | relative_url }}" class="btn btn-primary btn-lg">Get a Free Consultation</a>
 
-      
   <div class="row g-4 mt-5 justify-content-center text-center " id="services">
   <h2> Services </h2>
   <!-- Service 1 -->
@@ -89,7 +88,7 @@ description: "Learn about EZ Operation's mission, expertise, and commitment to d
   <!-- Service 6 -->
   <div class="col-md-4">
     <div class="card service-card shadow-sm">
-      <img src="images/strategy.png" class="service-img" alt="IT Strategy & Advisory"/>
+      <img src="assets/images/strategy.png" class="service-img" alt="IT Strategy & Advisory"/>
       <div class="card-body text-center">
         <i class="fas fa-lightbulb service-icon"></i>
         <div class="service-title">IT Strategy & Advisory</div>
@@ -99,9 +98,3 @@ description: "Learn about EZ Operation's mission, expertise, and commitment to d
       </div>
     </div>
   </div>
-
-</div>
-    </div>
-  </section>
-
-  <div id="footer"></div>

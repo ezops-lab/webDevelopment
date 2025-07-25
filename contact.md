@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "contact"
+title: "Contact Us"
 description: "Contact us to connect with EZ Operation Inc. for consultations or support."
 ---
 
@@ -15,11 +15,8 @@ description: "Contact us to connect with EZ Operation Inc. for consultations or 
     <div class="google-form">
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfVt84MfN7VAcCQ14hjn17wnMyEcqd-mtC9xqcOkXIuOiMQyw/viewform?embedded=true"
     width="640" height="1716" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-</iframe>
     </div>
-
     <p>For any inquiries, please fill out the form above or contact us directly via email or phone.</p>
-    <a href="index.html" class="btn btn-lg btn-primary">Back to Home</a>
+    <a href="{{'/index' | relative_url }}" class="btn btn-lg btn-primary">Back to Home</a>
   </div>
 </div>
-</body>

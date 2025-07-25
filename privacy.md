@@ -6,7 +6,7 @@ description: "Privacy Policy for EZ Operation Inc."
 
   <body>
     <div class="privacycontainer">
-      <a href="index.md" class="btn btn-info">Back to Home</a>
+      <a href="{{'/index' | relative_url }}" class="btn btn-info">Back to Home</a>
       <h1><b>Privacy Policy</b></h1>
       <p>Last updated: January 17, 2025</p>
       <p>
