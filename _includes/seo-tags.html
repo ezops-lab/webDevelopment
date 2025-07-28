@@ -8,5 +8,5 @@
 <meta name="twitter:description" content="{{ page.description | default: site.description | escape }}">
 <meta name="twitter:url" content="{{ page.url | absolute_url }}">
 <meta name="twitter:image" content="{{ page.image | default: site.logo | absolute_url }}"> 
-<meta name="twitter:site" content="@EZOperation">
-<meta name="twitter:creator" content="@EZOperation">  
+<meta name="keywords" content="{{ page.keywords | default: site.keywords | join: ', ' }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
