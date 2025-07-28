@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ page.title }} | {{ site.title }}</title>
+  {% include seo-tags.html %}
   <meta name="description" content="{{ page.description | default: site.description }}">
   <meta name="keywords" content="IT consulting, web development, database solutions, EZ Operation">
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
@@ -14,6 +15,8 @@
   <meta property="og:description" content="{{ page.description | default: site.description }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
+  {% feed_meta %}
+  {% seo %}
 </head>
 <body>
   {% include header.html %}
