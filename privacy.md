@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "privacy"
+title: "Privacy"
 description: "Privacy Policy for EZ Operation Inc."
 ---
 

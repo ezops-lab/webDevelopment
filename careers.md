@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "About Us"
+title: "Careers"
 description: "Learn about EZ Operation's mission, expertise, and commitment to digital transformation."
 ---
 
