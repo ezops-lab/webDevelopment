@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "index"
+title: "Home"
 description: "Learn about EZ Operation's mission, expertise, and commitment to digital transformation."
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "services"
+title: "Services"
 description: " Services provided by EZ Operation Inc. "
 ---
 
