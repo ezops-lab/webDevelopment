@@ -11,26 +11,24 @@ This is a modern, responsive, and open-source **community website** built with J
 
 ## Project Structure
 
-
-├── _includes/ # Shared components (navbar, footer, share buttons)
-├── _layouts/ # Page templates (default, blog, post)
-├── _posts/ # Markdown blog content with front matter
-├── _sass/ # SCSS partials for styling
+```text
+.
+├── _includes/             # Shared components (navbar, footer, share buttons)
+├── _layouts/              # Page templates (default, blog, post)
+├── _posts/                # Markdown blog content with front matter
+├── _sass/                 # SCSS partials for styling
 ├── assets/
-│ ├── css/ # Custom stylesheets
-│ ├── js/ # Optional scripts
-│ └── images/ # Static images
-├── blog.html # Blog index with pagination + tags
-├── contact.html # Contact page with embedded Google Form + WhatsApp
-├── gallery.html # Photo archive (year-wise)
-├── index.md # Home page
-├── about.md # About the community
-├── _config.yml # Jekyll configuration
-├── Gemfile # Ruby dependencies
-└── README.md # Project overview
-
-
-
+│   ├── css/               # Custom stylesheets
+│   ├── js/                # Optional scripts
+│   └── images/            # Static images
+├── blog.html              # Blog index with pagination + tags
+├── contact.html           # Contact page with embedded Google Form + WhatsApp
+├── gallery.html           # Photo archive (year-wise)
+├── index.md               # Home page
+├── about.md               # About the community
+├── _config.yml            # Jekyll configuration
+├── Gemfile                # Ruby dependencies
+└── README.md              # Project overview
 ---
 
 ## Key Features
