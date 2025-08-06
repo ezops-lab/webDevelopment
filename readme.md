@@ -55,7 +55,7 @@ This is a modern, responsive, and open-source **community website** built with J
 _posts/2025-08-01-my-first-post.md
 
 
-2. Add YAML front matter:
+2. Add YAML front matter (Example code for the blog):
 ```yaml
 ---
 layout: post
