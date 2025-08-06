@@ -30,7 +30,7 @@ This is a modern, responsive, and open-source **community website** built with J
 ├── Gemfile                # Ruby dependencies
 └── README.md              # Project overview
 ---
-
+```
 ## Key Features
 
 - ✅ **Responsive Bootstrap 5 Design**
