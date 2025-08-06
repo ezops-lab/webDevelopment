@@ -22,7 +22,7 @@ layout: default
     </p>
   {% endif %}
     <hr>
-    
+  {% include share-buttons.html %}
   <div class="d-flex justify-content-between">
     {% if page.previous %}
       <a href="{{ page.previous.url | relative_url }}" class="btn btn-outline-primary">&larr; Previous</a>
