@@ -33,7 +33,7 @@ This is a modern, responsive, and open-source **community website** built with J
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 - ✅ **Responsive Bootstrap 5 Design**
 - ✅ **Markdown-Powered Blogging System**
@@ -58,7 +58,7 @@ _posts/2025-08-01-my-first-post.md
 
 
 2. Add YAML front matter:
-yaml
+```yaml
 ---
 layout: post
 title: "The Future of IT Consulting"
@@ -66,15 +66,15 @@ description: "Exploring trends in cloud, AI, and digital strategy."
 tags: [it-consulting, future, trends]
 image: /assets/images/blog/it-future.jpg
 ---
-
+```
 3. Use Markdown to write your article. Upload images to assets/images/blog/.
 
-4. Blog System with SEO + Tags + Pagination
+## Blog System with SEO + Tags + Pagination
 Pagination is handled via Liquid logic or jekyll-paginate.
 
 Tags are extracted from front matter and linked to filtered views.
 
-4. Each blog post automatically includes:
+## Each blog post automatically includes:
 
 SEO meta tags (title, description, image)
 OpenGraph / Twitter Card metadata
